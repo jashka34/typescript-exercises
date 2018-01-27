@@ -14,6 +14,7 @@
 
 ~~~shell
 cd async-wait
+npm install @types/node --save-dev
 npm run start
 ~~~
 
