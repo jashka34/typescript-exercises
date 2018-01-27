@@ -1,15 +1,12 @@
 # typesript-exercises
 
-Цель
-====
+## Цель
 
 Различные опыты и эксперементы с typescript
 
-Описание
-========
+## Описание
 
-async-wait
-----------
+### async-wait
 
 Пример использования async/wait в typescript. 
 
