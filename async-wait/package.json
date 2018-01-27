@@ -10,6 +10,6 @@
   "author": "Alexey Chernyadyev",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^9.4.0"
+    "@types/node": "9.4.0"
   }
 }
