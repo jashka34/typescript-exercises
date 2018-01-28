@@ -1,7 +1,7 @@
 {
-  "name": "ts_tests",
+  "name": "async-await-test",
   "version": "0.0.1",
-  "description": "Всякие тесты",
+  "description": "Test for async/await",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
