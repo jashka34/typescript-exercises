@@ -1,0 +1,8 @@
+{
+  "globalDependencies": {
+    "underscore": "registry:dt/underscore#1.8.3+20161123125004"
+  },
+  "dependencies": {
+    "kefir": "registry:dt/kefir#3.3.0+20161122001659"
+  }
+}
