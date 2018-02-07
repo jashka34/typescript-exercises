@@ -76,7 +76,7 @@ mergeStream
 .onError((x) => { errCount++; })
   ;
 
-let newStream = Kefir.interval(100,1).take(50);  
+let newStream = Kefir.interval(100,1).take(50); 
 
 mergeStream.log();  
 newStream.log();

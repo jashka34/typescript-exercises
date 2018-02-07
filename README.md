@@ -14,7 +14,17 @@
 
 ~~~shell
 cd async-wait
-npm install @types/node --save-dev
+npm install
+npm run start
+~~~
+
+### kefir
+
+Баловство с Кефиром. 
+
+~~~shell
+cd async-wait
+npm install
 npm run start
 ~~~
 
