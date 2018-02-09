@@ -23,7 +23,7 @@ npm run start
 Баловство с Кефиром. 
 
 ~~~shell
-cd async-wait
+cd kefir
 npm install
 npm run start
 ~~~
