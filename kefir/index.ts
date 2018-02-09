@@ -71,15 +71,28 @@ let mergeStream = Kefir.merge(arr);
 let errCount : number = 0;
 let flag : boolean = false;
 
-mergeStream
-.onEnd(() => { console.log('errCount: ', errCount); } )
-.onError((x) => { errCount++; })
-  ;
+// mergeStream
+// .onEnd(() => { console.log('errCount: ', errCount); } )
+// .onError((x) => { errCount++; })
+//   ;
 
 let newStream = Kefir.interval(100,1).take(50); 
 
-mergeStream.log();  
-newStream.log();
+// mergeStream.log();  
+// newStream.log();
+
+let stream33 = Kefir.interval(2000, 33)
+.map( x => x + 1)
+.map( x => x * 2);
+
+let stream44 = Kefir.interval(2500, 44);
+
+let stream55 = Kefir.merge([stream33, stream44]);
+
+stream33.log();
+stream44.log();
+stream55.log();
+
 
 // let logStream = mergeStream.observe(
 //     {
