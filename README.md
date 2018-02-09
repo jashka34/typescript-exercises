@@ -28,3 +28,15 @@ npm install
 npm run start
 ~~~
 
+### rxjs
+
+Баловство с rxjs. 
+
+~~~shell
+cd rxjs
+npm install
+npm run go1
+~~~
+
+
+
